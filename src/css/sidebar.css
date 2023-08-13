@@ -1,0 +1,96 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    background-color: #FAFAFA;
+    box-shadow: 0.4px 0.2px 7px #43505D;
+    position: fixed;
+    top: 0;
+    margin-top: 64px;
+    z-index: 999;
+}
+
+ .sidebar-ul{    
+    display: flex;
+    flex-direction: column;
+    max-height: 81vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    list-style: none;
+    text-align: left;
+    min-height: 81vh;
+    padding-left: 0px;
+}
+
+ .sidebar-li{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+
+}
+
+
+ /* .sidebar-li:hover{
+
+    background-color:whitesmoke;
+    opacity: 0.5;
+    cursor: pointer;
+} */
+
+
+.sidebar-hr{
+    border: 1px solid #414D5A;
+    margin-top: -2px;
+    margin-bottom: 7px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.sidebar-hr1{
+    border: 1px solid #43505D;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    width: 100%;
+}
+
+.soru:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.soru{
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+    width: 90%;
+
+}
+
+.yenibuton{
+    margin-top: 5px;
+}
+
+.silliste:hover{
+    cursor:pointer;
+    opacity: 0.5;
+    }
+
+ .arama{
+    margin-bottom: 2px;
+    background-color: #CFD8DC;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5px;
+
+ }   
+
+ .sidebararama-hr1{
+    border: 1px solid #43505D;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    width: 100%;
+}

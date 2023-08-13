@@ -1,0 +1,44 @@
+
+.navbar{
+    background: #485563;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0.4px 0.2px 5px #FAFAFA;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+
+}
+
+.navbar-1 {
+    flex-direction: row;
+    display: flex;
+    margin-left: 5px;
+    background-color: #C5E1A5;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.4px 0.2px 5px #FAFAFA;
+    user-select: none;
+
+}
+
+.navbar-1:hover{
+    cursor: pointer;
+}
+
+.navbar-2 {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+
+.navbar-2:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
